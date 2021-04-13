@@ -159,4 +159,4 @@ client.elevation = message => {
 //EMİRHAN SARAÇ
 
 
-client.login(ayarlar.token)
+client.login(process.env.token)
